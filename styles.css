@@ -37,7 +37,7 @@ a:hover {
     margin-left: 0;
 }
 
-.hero {
+.hero{
     font-size: 20px;
     padding: 90px;
     display: flex;
@@ -63,4 +63,45 @@ a:hover {
     background-color: #3882f6;
     font-weight: bold;
     border-radius: 10px;
+}
+
+.quote {
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.quoteItself {
+    font-size: 18px;
+    width: 38%;
+    margin: 0 auto;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.individualQuote {
+    font-size: 18px;
+    margin: 0 auto;
+    width: 38%;
+    text-align: right;
+}
+
+.smallContainer {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    color: #F9FAF8;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.bottom {
+    border: 1px solid white;
 }
