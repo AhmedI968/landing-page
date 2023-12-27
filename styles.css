@@ -68,10 +68,11 @@ a:hover {
 .quote {
     background-color: lightgrey;
     text-align: center;
+    padding: 80px;
 }
 
 .quoteItself {
-    font-size: 18px;
+    font-size: 24px;
     width: 38%;
     margin: 0 auto;
     font-weight: 100;
@@ -79,7 +80,7 @@ a:hover {
 }
 
 .individualQuote {
-    font-size: 18px;
+    font-size: 22px;
     margin: 0 auto;
     width: 38%;
     text-align: right;
@@ -88,14 +89,15 @@ a:hover {
 .smallContainer {
     text-align: center;
     background-color: white;
-    padding: 20px;
+    padding: 70px;
     color: #F9FAF8;
 }
 
 .sign-up {
     background-color: #3882f6;
     display: flex;
-    width: 1200px;
+    width: 900px;
+    height: 150px;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
@@ -104,4 +106,27 @@ a:hover {
 
 .bottom {
     border: 1px solid white;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.productDisplay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+img {
+    border: 3px solid #3882f6;
+    border-radius: 7px;
+}
+
+.product p {
+    font-weight: 100;
 }
