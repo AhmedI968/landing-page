@@ -10,18 +10,19 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
 }
 
 .header, .footer {
-    display: flex;
-    flex-direction: row;
     background-color: #1F2937;
     color: #F9FAF8;
     font-size: 24px;
 }
 
-.header {
+.header{
+    display: flex;
+    flex-direction: row;
     padding-top: 15px;
     padding-left: 150px;
     padding-right: 150px;
@@ -36,8 +37,4 @@ a:hover {
 .logo {
     margin: auto;
     margin-left: 0;
-}
-
-.footer {
-    justify-content: center;
 }
